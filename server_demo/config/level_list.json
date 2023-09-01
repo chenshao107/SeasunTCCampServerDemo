@@ -1,0 +1,25 @@
+{
+    "level_list":[
+        {
+            "level_id":0,
+            "name":"关卡0"
+        },
+        {
+            "level_id":1,
+            "name":"关卡1"
+        },
+        {
+            "level_id":2,
+            "name":"灯灯灯"
+        },
+        {
+            "level_id":3,
+            "name":"百鬼夜行"
+        },
+        {
+            "level_id":4,
+            "name":"包赢"
+        }
+        
+    ]
+}

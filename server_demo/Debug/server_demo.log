@@ -1,0 +1,32 @@
+﻿  cJSON.c
+  codec.cpp
+D:\下载\Server\codec\codec.cpp(14,13): warning C4018: “<”: 有符号/无符号不匹配
+D:\下载\Server\codec\codec.cpp(23,13): warning C4018: “>=”: 有符号/无符号不匹配
+D:\下载\Server\codec\codec.cpp(34,13): warning C4018: “<”: 有符号/无符号不匹配
+D:\下载\Server\codec\codec.cpp(40,27): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  nethandle.cpp
+D:\下载\Server\netpack\nethandle.h(2,10): fatal  error C1083: 无法打开包括文件: “uv.h”: No such file or directory
+  level.pb.cc
+D:\下载\Server\proto\level.pb.h(9,10): fatal  error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  player.pb.cc
+D:\下载\Server\proto\player.pb.h(9,10): fatal  error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  syncMessage.pb.cc
+D:\下载\Server\proto\syncMessage.pb.h(9,10): fatal  error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  utils.cpp
+D:\下载\Server\utils\utils.h(2,10): fatal  error C1083: 无法打开包括文件: “uv.h”: No such file or directory
+  filedb.cpp
+D:\下载\Server\server_demo\filedb\filedb.cpp(13,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\下载\Server\server_demo\filedb\filedb.cpp(14,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\下载\Server\server_demo\filedb\filedb.cpp(39,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\下载\Server\server_demo\filedb\filedb.cpp(40,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\下载\Server\server_demo\filedb\filedb.cpp(73,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  level.cpp
+D:\下载\Server\server_demo\level\level.h(3,10): fatal  error C1083: 无法打开包括文件: “../proto/player.pb.h”: No such file or directory
+  RankMgr.cpp
+D:\下载\Server\server_demo\level\RankMgr.cpp(1,10): fatal  error C1083: 无法打开包括文件: “level/RankMgr.h”: No such file or directory
+  main.cpp
+D:\下载\Server\server_demo\main.cpp(2,10): fatal  error C1083: 无法打开包括文件: “uv.h”: No such file or directory
+  player.cpp
+D:\下载\Server\server_demo\player\player.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\下载\Server\server_demo\player\player.h(6,10): fatal  error C1083: 无法打开包括文件: “uv.h”: No such file or directory
+  正在生成代码...

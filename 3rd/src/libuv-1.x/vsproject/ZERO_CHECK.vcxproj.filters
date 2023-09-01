@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\vsproject\CMakeFiles\4d0a0b6cd2b9cd38ab2d84fc72ca2732\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7AD02065-9A5A-3F49-BAC1-1881ED378616}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

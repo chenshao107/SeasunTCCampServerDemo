@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\src\win\snprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\runner-win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-async-pummel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-fs-stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-getaddrinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-loop-count.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-million-async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-million-timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-multi-accept.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-ping-pongs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-ping-udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-pound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-pump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-sizes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-spawn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-tcp-write-batch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\benchmark-udp-pummel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\blackhole-server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\dns-server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\echo-server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\run-benchmarks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\test\runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\training\TCCampDemo\Server\3rd\src\libuv-1.x\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{093F760F-1911-3AD1-9550-D6221BE27B47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

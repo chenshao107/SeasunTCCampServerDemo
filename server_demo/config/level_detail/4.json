@@ -1,0 +1,12 @@
+{
+    "name":"包赢",
+    "detail":"包赢",
+    "ghost_quantity":5,
+    "gargoyle_quantity":5,
+    "treasure_chest_qantity":1,
+
+    "ghost_speed":1,
+    "player_speed":4,
+    "player_hp":10,
+    "limit_time":300
+}

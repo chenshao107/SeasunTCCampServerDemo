@@ -1,0 +1,299 @@
+syntax = "proto3";
+import "syncMessage.proto";
+package TCCamp;
+
+
+enum CLIENT_LEVEL_CMD{
+	CLIENT_LEVEL_INVALID		=0;
+	CLIENT_LEVEL_LIST_REQ		=10000;
+	CLIENT_LEVEL_DETAIL_REQ		=10001;
+	CLIENT_LEVEL_DATA_REQ		=10002;
+	CLIENT_LEVEL_START			=10003;
+	CLIENT_LEVEL_SETTLE_REQ		=10004;
+	CLIENT_LEVEL_RANK_REQ		=10005;
+
+	CLIENT_LEVEL_UPDATE_STATE	=10006;
+
+}
+
+enum SERVER_LEVEL_CMD{
+	SERVER_LEVEL_INVALID		=0;
+	SERVER_LEVEL_LIST_RSP		=20000;
+	SERVER_LEVEL_DETAIL_RSP		=20001;
+	SERVER_LEVEL_DATA_RSP		=20002;
+
+	SERVER_LEVEL_SETTLE_RSP		=20003;
+	SERVER_LEVEL_RANK_RSP=20004;
+
+	SERVER_LEVEL_RECONNECT		=20005;
+
+}
+
+enum LEVEL_LIST_RESULT_CODE{
+	LEVEL_LIST_RESULT_OK					=0;
+	LEVEL_LIST_RESULT_PLAYER_NOT_ONLINE		=1;
+	LEVEL_LIST_RESULT_SERVER_ERROR			=2;
+}
+
+enum LEVEL_DETAIL_RESULT_CODE{
+	LEVEL_DETAIL_RESULT_OK					=0;
+	LEVEL_DETAIL_RESULT_LEVELID_ILLEGAL		=1;
+	LEVEL_DETAIL_RESULT_PLAYER_NOT_ONLINE	=2;
+	LEVEL_DETAIL_RESULT_SERVER_ERROR		=3;
+}
+
+enum LEVEL_DATA_RESULT_CODE{
+	LEVEL_DATA_RESULT_OK					=0;
+	LEVEL_DATA_RESULT_LEVELID_ILLEGAL		=1;
+	LEVEL_DATA_RESULT_PLAYER_NOT_ONLINE		=2;
+	LEVEL_DETA_RESULT_SERVER_ERROR			=3;
+}
+
+enum LEVEL_SETTLE_RESULT_CODE{
+	LEVEL_SETTLE_RESULT_OK					=0;
+	LEVEL_SETTLE_RESULT_CHEATING			=1;
+	LEVEL_SETTLE_RESULT_CAN_NOT_FIND_GAME	=2;
+	LEVEL_SETTLE_RESULT_SERVER_ERROR		=3;	
+}
+
+enum LEVEL_RANK_RESULT_CODE{
+	LEVEL_RANK_RESULT_OK					=0;
+	LEVEL_RANK_RESULT_PAGE_ILLEGAL			=1;
+	LEVEL_RANK_RESULT_PLAYER_NOT_ONLINE		=2;
+	LEVEL_RANK_RESULT_SERVER_ERROR			=3;
+
+}
+
+
+
+
+
+message LevelListReq{
+	string PlayerID=1;
+}
+
+
+message LevelListItem{
+	int32 LevelID		=1;
+	string Name			=2;
+}
+
+message LevelListRsp{
+	int32 ResultCode				=1;
+	repeated LevelListItem LevelList=2;
+}
+
+message LevelDetailReq{
+	string PlayerID		=1;
+	int32 LevelID		=2;
+}
+
+message LevelDetailRsp{
+	int32 ResultCode	=1;
+
+	int32 LevelID		=2;
+	string Name			=3;
+	string Detail		=4;
+
+	int32 GhostQuantity	=5;
+	int32 GargoyleQuantity=6;
+	int32 TreasureChestQuantity=7;
+
+	double GhostSpeed	=8;
+	double PlayerSpeed	=9;
+
+	int32 PlayerHP		=10;
+	
+	int32 LimitTime		=11;
+
+} 
+
+message GhostData{
+	int32 ID					=1;
+	int32 BirthPoint			=2;
+	repeated int32 WayPoint		=3;
+	float speed					=4;
+	int32 Hp					=5;
+	int32 attack				=6;
+}
+
+message TreasureChestData
+{
+	int32 ID=1;
+	bool 	BeOpened			=2;
+	repeated int32 ItemIdList	=3;
+	Float3 Position				=4;
+}
+
+message LightData{
+	int32 ID	=1;
+	Float3	Position=2;
+}
+
+
+message LevelDataReq{
+	string PlayerID	=1;
+	int32 LevelID	=2;
+
+}
+
+
+
+message LevelDataRsp{
+	int32 ResultCode						=1;
+	int32 LevelID							=2;
+	string Name								=3;
+
+
+	repeated Float3 GargoylePosition		=4;
+	repeated GhostData Ghosts				=5;
+	repeated TreasureChestData TreasureChest			=6;
+	
+	double PlayerSpeed						=9;
+	int32 PlayerHP							=10;
+	repeated LightData Light					=11;
+	repeated Float3 SlowTrap				=12;
+	repeated Float3 SpikesTrap					=13;
+
+	int32 LimitTime							=14;
+}
+
+
+
+message LevelStart{
+	string PlayerID		=1;
+}
+
+
+message LevelSettleReq{
+	string PlayerID		=1;
+	int32 LevelID		=2;
+	int32 KillGhost		=3;
+	float SpendTime		=4;
+	int32 Gold			=5;
+	bool Win			=6;
+}
+
+message LevelSettleRsp{
+	int32 ResultCode	=1;
+	int32 Score 		=3;
+}
+
+
+message RankReq{
+	string PlayerID	=1;
+	int32 page		=2;
+}
+
+
+message RankItem{
+	int32 Rank		=1;
+	string PlayerID	=2;
+	string Name		=3;
+	int32 Gold		=4;
+	int32 Score		=5;
+}
+
+message RankRsp{
+	int32 ResultCode			=1;
+	repeated RankItem	Rank	=2;
+	RankItem PlayerRank			=3;
+}
+
+
+message PosRot{
+	Float3 Position				=1;
+	Float4 Rotation				=2;
+}
+
+
+message GhostState{
+	int32 ID				=1;
+	PosRot GhostTransform=2;
+	int32	NextWayPoint	=3;
+	int32	Hp				=4;
+	int32 	Attack			=5;
+	float	Speed			=6;
+	int32 	Mode			=7;  
+	bool IsSolving 			= 8;
+	float solveThreshold 	= 9;
+	bool IsGhostActive		=10;
+
+}
+message IntPair{
+	int32 a=1;
+	int32 b=2;
+}
+message TimerID2floatTimes{
+	int32 ID				=1;
+	float TimeCal			=2;
+	float TimeInterval		=3;
+}
+
+message TreasureChestState{
+	bool isOpened			=1;
+	int32 ID				=2;
+
+}
+
+
+message LightState{
+	int32 ID				=1;
+	bool IsOn				=2;
+	float ElapsedTime		=3;
+}
+
+
+message SkillState{
+	int32	ID				=1;
+	bool	IsActive		=2;
+	float	ColdTimeLeft	=3;
+}
+
+message SlowState{
+	float	SlowSpeed		=2;
+	float	LeftTime		=3;
+}
+
+message GhostTimer{
+	int32 GhostID=1;
+	float LeftTime=2;
+	int32 type=3;
+}
+
+message LevelState{
+	int32 KillGhost									=1;
+	float	TimeDuration							=2;
+	PosRot	PlayerTransform						=3;
+	int32 		PlayerHP							=4;
+	repeated GhostState GhostStateList=5;
+	repeated TreasureChestState TreasureChestStateList=6;
+	repeated SkillState			SkillStateList		=7;
+	repeated LightState LightStateList = 8;
+
+	repeated IntPair GhostSendbackAdmin					=9;
+	repeated IntPair DeactiveTimerID2GhostID			=10;
+	repeated IntPair SponceTimerID2GhostID				=11;
+	repeated TimerID2floatTimes TimerID2Times			=12;  
+
+	SlowState	PlayerSlowState							=13;
+	int32 LevelID										=14;
+	repeated GhostTimer	GhostTimerList					=15;
+
+}
+
+
+
+
+message ReconnectPkg{
+	LevelDataRsp LevelData		=1;
+	LevelState	State			=2;	
+}
+
+message ServerSaveFile{
+	int32 LevelID				=1;
+	LevelState save			=2;
+	int32 SpendTime				=3;
+	int64	SaveTime			=4;
+}
+

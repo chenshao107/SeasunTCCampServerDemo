@@ -1,0 +1,22 @@
+{
+    "rank":[
+        {
+            "playerid":"zhongjunqi",
+            "name"     :"zhongjunqi",
+            "score":0,
+            "gold":0
+        },
+        {
+            "playerid":"yangsuifeng",
+            "name"     :"yangsuifeng",
+            "score":0,
+            "gold":0
+        },
+        {
+            "playerid":"newplayer1",
+            "name"     :"newplayer1",
+            "score":0,
+            "gold":0
+        }
+    ]
+}

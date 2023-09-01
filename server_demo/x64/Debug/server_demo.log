@@ -1,0 +1,121 @@
+﻿  nethandle.cpp
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+  level.pb.cc
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+  player.pb.cc
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+  syncMessage.pb.cc
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+  utils.cpp
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+D:\下载\Server\utils\utils.cpp(263,28): warning C4244: “初始化”: 从“double”转换到“int32_t”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(267,59): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(416,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(421,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(422,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(423,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(426,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(427,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(428,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(429,42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(444,54): warning C4244: “参数”: 从“double”转换到“google::protobuf::int32”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(450,35): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\下载\Server\utils\utils.cpp(451,35): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  level.cpp
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+D:\下载\Server\server_demo\level\level.cpp(140,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\下载\Server\server_demo\level\level.cpp(263,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\下载\Server\server_demo\level\level.cpp(354,41): warning C4244: “参数”: 从“int64_t”转换到“google::protobuf::int32”，可能丢失数据
+D:\下载\Server\server_demo\level\level.cpp(365,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\下载\Server\server_demo\level\level.cpp(698,33): warning C4244: “参数”: 从“double”转换到“google::protobuf::int32”，可能丢失数据
+D:\下载\Server\server_demo\level\level.cpp(708,33): warning C4244: “参数”: 从“double”转换到“google::protobuf::int32”，可能丢失数据
+  RankMgr.cpp
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+D:\下载\Server\server_demo\level\RankMgr.cpp(143,88): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+D:\下载\Server\server_demo\main.cpp(28,16): warning C4091: “extern ”: 没有声明变量时忽略“LevelMgr”的左侧
+  player.cpp
+D:\下载\Server\server_demo\player\player.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,22): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(244,2): message : 查看对正在编译的 类 模板 实例化“google::protobuf::hash<Key>”的引用
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(243,50): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2039: "hash_compare": 不是 "std" 的成员
+D:\SoftWare\VisualStudio2022\VC\Tools\MSVC\14.37.32822\include\unordered_set(24,1): message : 参见“std”的声明
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,14): error C2504: “hash_compare”: 未定义基类
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(257,42): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\下载\Server\3rd\include\protobuf\include\google\protobuf\stubs\hash.h(402,29): error C2064: 项不会计算为接受 1 个参数的函数
+D:\下载\Server\server_demo\player\player.h(32,2): warning C4091: “extern ”: 没有声明变量时忽略“Player”的左侧
+D:\下载\Server\server_demo\player\player.cpp(287,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\下载\Server\server_demo\player\player.cpp(339,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...

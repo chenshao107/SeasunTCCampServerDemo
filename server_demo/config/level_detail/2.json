@@ -1,0 +1,12 @@
+{
+    "name":"灯灯灯",
+    "detail":"灯特别多",
+    "ghost_quantity":5,
+    "gargoyle_quantity":5,
+    "treasure_chest_qantity":1,
+
+    "ghost_speed":1,
+    "player_speed":15,
+    "player_hp":5,
+    "limit_time":30
+}
